@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400i&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 228, 240);
+}
+
+blockquote {
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  color: rgb(48, 79, 112);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header {
+  background-image: url(img/analytics-3088958_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-shadow: 5px 2px 4px rgb(0, 0, 0);
+}
+
+nav {
+  background-color: rgba(62, 72, 91, 0.81);
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding-top: 8px;
+  display: list-item;
+  list-style-type: none;
+}
+
+nav ul a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  -moz-transition: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+nav ul a:hover {
+  color: rgb(48, 79, 112);
+  -moz-transition: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(205, 207, 210, 0.4);
+  padding: 30px;
+}
+
+.intro blockquote {
+  border-left: 1px solid rgb(48, 79, 112, 0.50);
+  padding-left: 12px;
+  display: block;
+  align-self: center;
+  width: 500px;
+}
+
+.intro h4 {
+  align-self: center;
+}
+
+.intro video {
+    width: 500px;
+    align-self: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer i {
+  margin: 10px 0px;
+  margin-left: 30px;
+  padding: 4px;
+  font-size: 23px;
+  color: rgb(48, 79, 112);
+  -moz-transition: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+i:hover {
+  color: rgba(168, 174, 187, 0.82);
+  -moz-transition: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
